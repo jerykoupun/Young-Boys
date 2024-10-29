@@ -1,6 +1,6 @@
-const Hello = () => {
-    return <h1>Header Generation 1</h1>;
+const TypeEffect = () => {
+    return <h1>TypeEffect</h1>;
   };
   
-  export default Hello;
+  export default TypeEffect;
   
