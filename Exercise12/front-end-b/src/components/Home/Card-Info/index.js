@@ -5,7 +5,7 @@ import TypeEffect from "./Type-Effect";
 const CardInfo = () => {
   return (
     <>
-      <h1>CardInfo</h1>
+      <h1>Card-Info</h1>
       <Evolution />
       <TypeEffect />
       <Logo />
