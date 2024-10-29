@@ -4,8 +4,8 @@ import Logo from "./Logo";
 const Header = () => {
   return (
     <>
-      <Generations />
       <Logo />
+      <Generations />
     </>
   );
 };
