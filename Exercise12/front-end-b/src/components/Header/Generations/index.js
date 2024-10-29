@@ -6,6 +6,7 @@ import Gen4 from "./Gen4";
 const Generations = () => {
   return (
     <>
+      <h1>Generations</h1>
       <Gen1 />
       <Gen2 />
       <Gen3 />
