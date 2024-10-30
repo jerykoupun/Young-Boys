@@ -5,8 +5,8 @@ const App = () => {
   return (
     /*JSX*/
     <>
-      <Header />
-      <Home HomeText="Home props" />
+      <Header headerText="Header props" />
+      <Home />
       <Footer />
     </>
   );
