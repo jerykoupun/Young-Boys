@@ -8,7 +8,7 @@ const CardInfo = ({ CardInfoText }) => {
       <h1>{CardInfoText}</h1>
       <Evolution EvolutionText="Evolution props" />
       <TypeEffect TypeEffectText="TypeEffect props" />
-      <Logo LogoText="Logo Props" />
+      <Logo LogoText="Logo props" />
     </>
   );
 };
