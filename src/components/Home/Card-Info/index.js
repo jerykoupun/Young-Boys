@@ -2,13 +2,13 @@ import Evolution from "./Evolution";
 import Logo from "./Logo";
 import TypeEffect from "./Type-Effect";
 
-const CardInfo = () => {
+const CardInfo = ({ CardInfoText }) => {
   return (
     <>
-      <h1>Card-Info</h1>
-      <Evolution />
-      <TypeEffect />
-      <Logo />
+      <h1>{CardInfoText}</h1>
+      <Evolution EvolutionText="Evolution props" />
+      <TypeEffect TypeEffectText="TypeEffect props" />
+      <Logo LogoText="Logo Props" />
     </>
   );
 };

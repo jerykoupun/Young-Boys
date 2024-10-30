@@ -1,12 +1,12 @@
 import CardInfo from "./Card-Info";
 import Search from "./Search";
 
-const Home = () => {
+const Home = ({ HomeText }) => {
   return (
     <>
-      <h1>Home</h1>
+      <h1>{HomeText}</h1>
       <Search />
-      <CardInfo />
+      <CardInfo CardInfoText="CardInfo props" />
     </>
   );
 };
