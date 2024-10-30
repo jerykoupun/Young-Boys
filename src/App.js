@@ -7,7 +7,7 @@ const App = () => {
     <>
       <Header headerText="Header props" />
       <Home HomeText="Home props" />
-      <Footer />
+      <Footer Footertext="Footer props"/>
     </>
   );
 };
