@@ -6,7 +6,7 @@ const App = () => {
     /*JSX*/
     <>
       <Header headerText="Header props" />
-      <Home />
+      <Home HomeText="Home props" />
       <Footer />
     </>
   );
