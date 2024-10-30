@@ -5,7 +5,7 @@ const Home = ({ HomeText }) => {
   return (
     <>
       <h1>{HomeText}</h1>
-      <Search />
+      <Search SearchText="Search props"/>
       <CardInfo CardInfoText="CardInfo props" />
     </>
   );
