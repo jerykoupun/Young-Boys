@@ -1,4 +1,4 @@
-const TypeEffect = (TypeEffectText) => {
+const TypeEffect = ({ TypeEffectText }) => {
   return <h1>{TypeEffectText}</h1>;
 };
 
